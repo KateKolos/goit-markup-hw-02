@@ -45,6 +45,10 @@ span.logo-accent {
   color: var(--accent-color);
 }
 
+.link.current {
+  color: var(--accent-color);
+}
+
 /* Main */
 
 .button {
@@ -58,6 +62,22 @@ span.logo-accent {
   background: var(--accent-color);
   border: none;
 }
+
+/* portfolio cards */
+
+.link {
+  color: var(--secondary-text-color);
+}
+
+.link-title {
+  color: var(--primary-text-color);
+}
+
+.link:hover,
+.link-title:hover {
+  color: var(--accent-color);
+}
+/* footer */
 
 .footer-nav .link {
   color: var(--primary-text-color);
