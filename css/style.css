@@ -11,7 +11,7 @@
 body {
   font-family: "Roboto", sans serif;
 }
-
+/* ----------------Header---------------- */
 .header {
   font-size: 14px;
   line-height: 1.14;
@@ -40,16 +40,22 @@ span.logo-accent {
 .site-nav-link:focus {
   color: var(--accent-color);
 }
+.auth-nav-link:hover,
+.auth-nav-link:focus {
+  color: var(--accent-color);
+}
 .list {
   list-style: none;
   color: var(--primary-text-color);
 }
 .link {
   text-decoration: none;
+  color: var(--primary-text-color);
 }
 .link.current {
   color: var(--accent-color);
 }
+/* ------------------Hero----------------- */
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -59,15 +65,16 @@ span.logo-accent {
   text-transform: uppercase;
   color: var(--container-bg-color);
 }
-.hero-button {
+.button {
   color: var(--primary-text-color);
   background: var(--button-bg-color);
   cursor: pointer;
 }
-.hero-button:hover {
+.button:hover {
   color: var(--container-bg-color);
   background: var(--accent-color);
 }
+/* ---------------features--------------- */
 .features-item-title {
   font-weight: 700;
   font-size: 14px;
@@ -83,6 +90,7 @@ span.logo-accent {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+/* -----------------Team--------------- */
 .team {
   color: var(--secondary-text-color);
 }
@@ -107,6 +115,7 @@ span.logo-accent {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+/* ---------------Footer------------ */
 .footer-nav-link:hover,
 .footer-nav-link:hover {
   color: var(--accent-color);
@@ -114,4 +123,20 @@ span.logo-accent {
 .footer-nav-link {
   color: var(--primary-text-color);
   font-style: normal;
+}
+/* -----------------Portfolio---------------- */
+
+.link-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.link-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }

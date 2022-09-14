@@ -15,42 +15,58 @@
   </head>
   <body>
     <!---------------- Хедер ---------------->
-    <header>
+    <header class="header">
       <nav>
-        <a href="#" class="logo"> <span class="logo-accent">Web</span>Studio</a>
+        <a href="./index.html" class="logo link">
+          <span class="logo-accent">Web</span>Studio
+        </a>
         <ul class="site-nav list">
           <li>
-            <a class="link" href="./studio.html">Студія</a>
+            <a class="site-nav-link link" href="#">Студія</a>
           </li>
           <li>
-            <a class="link current" href="./portfolio.html">Портфоліо</a>
+            <a href="./portfolio.html" class="site-nav-link link current"
+              >Портфоліо</a
+            >
           </li>
           <li>
-            <a class="link" href="./contacts.html">Контакти</a>
+            <a href="#" class="site-nav-link link">Контакти</a>
           </li>
         </ul>
       </nav>
       <ul class="auth-nav list">
         <li>
-          <a href="mailto:info@devstudio.com" class="link"
+          <a href="mailto:info@devstudio.com" class="auth-nav-link link"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+          <a href="tel:+380961111111" class="auth-nav-link link"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
 
     <main>
-      <section class="section">
+      <section class="portfolio">
         <h1 hidden>Портфоліо</h1>
         <ul class="portfolio-nav list">
-          <li><button type="button" class="button">Веб-сайти</button></li>
-          <li><button type="button" class="button">Додатки</button></li>
-          <li><button type="button" class="button">Усі</button></li>
-          <li><button type="button" class="button">Дизайн</button></li>
-          <li><button type="button" class="button">Маркетинг</button></li>
+          <li>
+            <button type="button" class="button">Веб-сайти</button>
+          </li>
+          <li>
+            <button type="button" class="button">Додатки</button>
+          </li>
+          <li>
+            <button type="button" class="button">Усі</button>
+          </li>
+          <li>
+            <button type="button" class="button">Дизайн</button>
+          </li>
+          <li>
+            <button type="button" class="button">Маркетинг</button>
+          </li>
         </ul>
         <ul class="portfolio list">
           <li>
@@ -62,7 +78,7 @@
                 height="294"
               />
               <h2 class="link-title">Технокряк</h2>
-              <p>Веб-сайт</p>
+              <p class="link-descr">Веб-сайт</p>
             </a>
           </li>
           <li>
@@ -74,7 +90,7 @@
                 height="294"
               />
               <h2 class="link-title">Постер New Orlean vs Golden Star</h2>
-              <p>Дизайн</p>
+              <p class="link-descr">Дизайн</p>
             </a>
           </li>
           <li>
@@ -86,21 +102,21 @@
                 height="294"
               />
               <h2 class="link-title">Ресторан Seafood</h2>
-              <p>Додаток</p>
+              <p class="link-descr">Додаток</p>
             </a>
           </li>
           <li>
             <a href="#" class="link">
               <img src="./images/prime.jpeg" alt="" width="370" height="294" />
               <h2 class="link-title">Проєкт Prime</h2>
-              <p>Маркетинг</p>
+              <p class="link-descr">Маркетинг</p>
             </a>
           </li>
           <li>
             <a href="#" class="link">
               <img src="./images/boxes.jpeg" alt="" width="370" height="294" />
               <h2 class="link-title">Проєкт Boxes</h2>
-              <p>Додаток</p>
+              <p class="link-descr">Додаток</p>
             </a>
           </li>
           <li>
@@ -112,7 +128,7 @@
                 height="294"
               />
               <h2 class="link-title">Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <p class="link-descr">Веб-сайт</p>
             </a>
           </li>
           <li>
@@ -131,7 +147,7 @@
             <a href="#" class="link">
               <img src="./images/lab.jpeg" alt="" width="370" height="294" />
               <h2 class="link-title">Проєкт LAB</h2>
-              <p>Маркетинг</p>
+              <p class="link-descr">Маркетинг</p>
             </a>
           </li>
           <li>
@@ -143,7 +159,7 @@
                 height="294"
               />
               <h2 class="link-title">Growing Business</h2>
-              <p>Додаток</p>
+              <p class="link-descr">Додаток</p>
             </a>
           </li>
         </ul>
@@ -153,25 +169,28 @@
     <!-- Підвал -->
 
     <footer class="footer">
-      <a href="#" class="logo"> <span class="logo-accent">Web</span>Studio </a>
+      <a href="#" class="logo link">
+        <span class="logo-accent">Web</span>Studio
+      </a>
       <ul class="footer-nav list">
         <li>
           <a
             href="https://goo.gl/maps/T1ktbeCNpbdaZyWX9"
             target="_blank"
             rel="noopenner noreferrer nofollow"
-            class="link"
-          >
-            м. Київ, пр-т Лесі Українки, 26</a
-          >
-        </li>
-        <li>
-          <a href="mailto:info@devstudio.com" class="link">
-            info@devstudio.com</a
+            class="footer-nav-link link"
+            >м. Київ, пр-т Лесі Українки, 26</a
           >
         </li>
         <li>
-          <a href="tel:+380961111111" class="link"> +38 096 111 11 11</a>
+          <a href="mailto:info@devstudio.com" class="footer-nav-link link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="footer-nav-link link"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </footer>
