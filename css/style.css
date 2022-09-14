@@ -35,7 +35,6 @@ span.logo-accent {
   color: var(--primary-text-color);
   font-style: normal;
 }
-
 .site-nav-link:hover,
 .site-nav-link:focus {
   color: var(--accent-color);
