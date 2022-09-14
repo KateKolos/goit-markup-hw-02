@@ -6,6 +6,7 @@
   --container-border-color: #eeeeee;
   --button-bg-color: #f5f4fa;
   --logo-main-color: #000000;
+  --footer-background-color: #2f303a;
 }
 
 body {
@@ -16,7 +17,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
 }
 .logo {
   font-family: "Raleway";
@@ -30,9 +30,12 @@ body {
 span.logo-accent {
   color: var(--accent-color);
 }
-.site-nav-link,
-.auth-nav-link {
+.site-nav-link {
   color: var(--primary-text-color);
+  font-style: normal;
+}
+.auth-nav-link {
+  color: var(--secondary-text-color);
   font-style: normal;
 }
 .site-nav-link:hover,
@@ -49,7 +52,6 @@ span.logo-accent {
 }
 .link {
   text-decoration: none;
-  color: var(--primary-text-color);
 }
 .link.current {
   color: var(--accent-color);
@@ -115,12 +117,19 @@ span.logo-accent {
   color: var(--secondary-text-color);
 }
 /* ---------------Footer------------ */
+.footer {
+  background-color: var(--footer-background-color);
+}
 .footer-nav-link:hover,
 .footer-nav-link:hover {
   color: var(--accent-color);
 }
+.footer-nav-link-adress {
+  color: var(--container-bg-color);
+  font-style: normal;
+}
 .footer-nav-link {
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
   font-style: normal;
 }
 /* -----------------Portfolio---------------- */
