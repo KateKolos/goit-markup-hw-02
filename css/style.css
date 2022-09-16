@@ -31,20 +31,20 @@ span.logo-accent {
 }
 
 .site-nav-link {
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
   font-style: normal;
 }
 
 .auth-nav-link {
+  color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
   font-style: normal;
 }
 
@@ -88,8 +88,8 @@ span.logo-accent {
 
 .hero-button {
   font-family: inherit;
-  color: var(--primary-text-color);
-  background: var(--button-bg-color);
+  color: var(--container-bg-color);
+  background: var(--accent-color);
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
@@ -101,7 +101,7 @@ span.logo-accent {
 
 .hero-button:hover {
   color: var(--container-bg-color);
-  background: var(--accent-color);
+  background: #188ce8;
 }
 
 /* ---------------features--------------- */
@@ -138,16 +138,16 @@ span.logo-accent {
 }
 
 .team-list-title {
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.189;
-  color: var(--primary-text-color);
 }
 
 .team-list-descr {
+  color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.189;
-  color: var(--secondary-text-color);
 }
 
 /* ---------------Footer------------ */
@@ -158,6 +158,8 @@ span.logo-accent {
 .footer-nav-link-adress {
   color: var(--container-bg-color);
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .footer-nav-link-adress:hover,
@@ -168,6 +170,8 @@ span.logo-accent {
 .footer-nav-link {
   color: var(--footer-link-color);
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .footer-nav-link:hover,
